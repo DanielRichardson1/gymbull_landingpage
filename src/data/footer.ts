@@ -7,7 +7,7 @@ export const footerDetails: {
     telephone: string;
     socials: ISocials;
 } = {
-    subheading: "Empowering businesses with cutting-edge financial technology solutions.",
+    subheading: "Empowering the world with cutting-edge fitness solutions for a healthier lifestyle.",
     quickLinks: [
         {
             text: "Features",
@@ -22,8 +22,8 @@ export const footerDetails: {
             url: "#testimonials"
         }
     ],
-    email: 'address@yoursite.com',
-    telephone: '+1 (123) 456-7890',
+    email: 'support@gymbull.com',
+    telephone: '+1 (610) 123-4203',
     socials: {
         // github: 'https://github.com',
         // x: 'https://twitter.com/x',

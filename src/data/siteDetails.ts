@@ -1,8 +1,8 @@
 export const siteDetails = {
-    siteName: 'Finwise',
-    siteUrl: 'https://finwise-omega.vercel.app/',
+    siteName: 'GymBull',
+    siteUrl: 'https://gymbull.net',
     metadata: {
-        title: 'Finwise - Next.js and Tailwind CSS Landing Page Template',
+        title: 'GymBull - Your Personalized Personal Trainer',
         description: 'Finwise empowers businesses with cutting-edge technology solutions to drive success and efficiency.',
     },
     language: 'en-us',
