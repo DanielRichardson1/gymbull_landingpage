@@ -4,7 +4,7 @@ import Link from "next/link";
 import React, { useState } from "react";
 import { Transition } from "@headlessui/react";
 import { HiOutlineXMark, HiBars3 } from "react-icons/hi2";
-import { FaBullseye } from "react-icons/fa6";
+import Image from "next/image";
 
 import Container from "./Container";
 import { siteDetails } from "@/data/siteDetails";
@@ -23,7 +23,14 @@ const Header: React.FC = () => {
         <nav className="shadow-md md:shadow-none bg-white md:bg-transparent mx-auto flex justify-between items-center py-2 px-5 md:py-10">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2">
-            <FaBullseye className="min-w-fit w-5 h-5 md:w-7 md:h-7" />
+            {/* <FaBullseye className="min-w-fit w-5 h-5 md:w-7 md:h-7" /> */}
+            <Image
+              src={siteDetails.siteLogo}
+              alt={siteDetails.siteName}
+              width={40}
+              height={40}
+            />
+
             <span className="manrope text-xl font-semibold text-foreground cursor-pointer">
               {siteDetails.siteName}
             </span>

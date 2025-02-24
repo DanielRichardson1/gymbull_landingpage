@@ -27,8 +27,8 @@ const HomePage: React.FC = () => {
 
         <Section
           id="testimonials"
-          title="What Our Clients Say"
-          description="Hear from those who have partnered with us."
+          title="What Customers are Saying"
+          description="Hear from those who have used our app."
         >
           <Testimonials />
         </Section>
@@ -36,7 +36,7 @@ const HomePage: React.FC = () => {
         <FAQ />
 
         <Stats />
-        
+
         <CTA />
       </Container>
     </>
