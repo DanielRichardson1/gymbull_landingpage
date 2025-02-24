@@ -9,7 +9,6 @@ import { FaBullseye } from "react-icons/fa6";
 import Container from "./Container";
 import { siteDetails } from "@/data/siteDetails";
 import { menuItems } from "@/data/menuItems";
-import Image from "next/image";
 
 const Header: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
