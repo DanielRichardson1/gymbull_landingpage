@@ -1,72 +1,92 @@
-import { FiBarChart2, FiBriefcase, FiDollarSign, FiLock, FiPieChart, FiShield, FiTarget, FiTrendingUp, FiUser } from "react-icons/fi";
+import {
+  FiBarChart2,
+  FiBriefcase,
+  FiDollarSign,
+  FiLock,
+  FiPieChart,
+  FiShield,
+  FiTarget,
+  FiTrendingUp,
+  FiUser,
+} from "react-icons/fi";
 
-import { IBenefit } from "@/types"
+import { IBenefit } from "@/types";
 
 export const benefits: IBenefit[] = [
-    {
-        title: "Smart Budgeting",
-        description: "Take the guesswork out of managing your money. Our AI-powered budgeting tool adapts to your lifestyle and helps you stay on track.",
-        bullets: [
-            {
-                title: "Intelligent Categorization",
-                description: "Automatically sorts your transactions for crystal-clear insights.",
-                icon: <FiBarChart2 size={26} />
-            },
-            {
-                title: "Customizable Goals",
-                description: "Set and track financial objectives that matter to you.",
-                icon: <FiTarget size={26} />
-            },
-            {
-                title: "Predictive Analysis",
-                description: "Get ahead of your finances with spending forecasts and alerts.",
-                icon: <FiTrendingUp size={26} />
-            }
-        ],
-        imageSrc: "/images/mockup-1.webp"
-    },
-    {
-        title: "Seamless Investing",
-        description: "Start building wealth today, no financial degree required. Finwise makes investing accessible and straightforward.",
-        bullets: [
-            {
-                title: "Micro-Investing",
-                description: "Begin with as little as $1 and watch your money grow.",
-                icon: <FiDollarSign size={26} />
-            },
-            {
-                title: "Expert Portfolios",
-                description: "Choose from investment strategies tailored to your risk tolerance.",
-                icon: <FiBriefcase size={26} />
-            },
-            {
-                title: "Real-Time Performance",
-                description: "Track your investments with easy-to-understand metrics and visuals.",
-                icon: <FiPieChart size={26} />
-            }
-        ],
-        imageSrc: "/images/mockup-2.webp"
-    },
-    {
-        title: "Bank-Grade Security",
-        description: "Your financial data deserves the best protection. Rest easy knowing Finwise employs cutting-edge security measures.",
-        bullets: [
-            {
-                title: "Military-Grade Encryption",
-                description: "Your information is safeguarded with the highest level of encryption.",
-                icon: <FiLock size={26} />
-            },
-            {
-                title: "Biometric Authentication",
-                description: "Access your account securely with fingerprint or facial recognition.",
-                icon: <FiUser size={26} />
-            },
-            {
-                title: "Real-Time Fraud Detection",
-                description: "Our system constantly monitors for suspicious activity to keep your money safe.",
-                icon: <FiShield size={26} />
-            }
-        ],
-        imageSrc: "/images/mockup-1.webp"
-    },
-]
+  {
+    title: "Personalized Workouts",
+    description:
+      "Experience tailored fitness plans that adapt to your needs and goals. GymBull makes staying fit enjoyable and easy.",
+    bullets: [
+      {
+        title: "Customized Plans",
+        description:
+          "Workouts designed specifically for your fitness level and goals.",
+        icon: <FiBarChart2 size={26} />,
+      },
+      {
+        title: "Flexible Scheduling",
+        description: "Fit your workouts into your busy schedule with ease.",
+        icon: <FiTarget size={26} />,
+      },
+      {
+        title: "Real-Time Feedback",
+        description: "Get instant feedback on your form and progress.",
+        icon: <FiTrendingUp size={26} />,
+      },
+    ],
+    imageSrc: "/images/mockup-1.webp",
+  },
+  {
+    title: "Seamless Integration",
+    description:
+      "Easily integrate GymBull with your favorite fitness trackers and devices to keep all your data in one place.",
+    bullets: [
+      {
+        title: "Wearable Compatibility",
+        description:
+          "Sync with popular fitness wearables and track your progress.",
+        icon: <FiDollarSign size={26} />,
+      },
+      {
+        title: "Nutrition Tracking",
+        description:
+          "Monitor your diet alongside your workouts for holistic health.",
+        icon: <FiBriefcase size={26} />,
+      },
+      {
+        title: "Progress Visuals",
+        description:
+          "Visualize your fitness journey with easy-to-understand charts and graphs.",
+        icon: <FiPieChart size={26} />,
+      },
+    ],
+    imageSrc: "/images/mockups/hero_ss-portrait-full.webp",
+  },
+  {
+    title: "Top-Notch Security",
+    description:
+      "Your fitness data is safe with us. GymBull employs advanced security measures to protect your information.",
+    bullets: [
+      {
+        title: "Data Encryption",
+        description:
+          "Your information is safeguarded with advanced encryption methods.",
+        icon: <FiLock size={26} />,
+      },
+      {
+        title: "Biometric Authentication",
+        description:
+          "Access your account securely with fingerprint or facial recognition.",
+        icon: <FiUser size={26} />,
+      },
+      {
+        title: "Continuous Monitoring",
+        description:
+          "We constantly monitor for any suspicious activity to keep your data safe.",
+        icon: <FiShield size={26} />,
+      },
+    ],
+    imageSrc: "/images/mockup-1.webp",
+  },
+];
