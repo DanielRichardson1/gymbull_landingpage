@@ -21,72 +21,70 @@ export const benefits: IBenefit[] = [
       {
         title: "Customized Plans",
         description:
-          "Workouts designed specifically for your fitness level and goals.",
+          "Get workouts designed specifically for your fitness level and goals.",
         icon: <FiBarChart2 size={26} />,
       },
       {
         title: "Flexible Scheduling",
-        description: "Fit your workouts into your busy schedule with ease.",
+        description: "Schedule workouts around your busy life effortlessly.",
         icon: <FiTarget size={26} />,
       },
       {
         title: "Real-Time Feedback",
-        description: "Get instant feedback on your form and progress.",
+        description: "Receive instant feedback on your form and progress.",
         icon: <FiTrendingUp size={26} />,
       },
     ],
-    imageSrc: "/images/mockup-1.webp",
+    imageSrc: "/images/mockups/workout_overview.png",
   },
   {
-    title: "Seamless Integration",
+    title: "Personalized Meal Plans",
     description:
-      "Easily integrate GymBull with your favorite fitness trackers and devices to keep all your data in one place.",
+      "Get meal plans tailored to your dietary preferences and fitness goals. GymBull ensures you're fueling your body right.",
     bullets: [
-      {
-        title: "Wearable Compatibility",
-        description:
-          "Sync with popular fitness wearables and track your progress.",
-        icon: <FiDollarSign size={26} />,
-      },
       {
         title: "Nutrition Tracking",
         description:
-          "Monitor your diet alongside your workouts for holistic health.",
+          "Track your meals and nutrition to stay on top of your diet.",
+        icon: <FiDollarSign size={26} />,
+      },
+      {
+        title: "Custom Recipes",
+        description:
+          "Enjoy delicious recipes customized to your dietary needs.",
         icon: <FiBriefcase size={26} />,
       },
       {
-        title: "Progress Visuals",
+        title: "Calorie Monitoring",
         description:
-          "Visualize your fitness journey with easy-to-understand charts and graphs.",
+          "Monitor your calorie intake with easy-to-understand charts.",
         icon: <FiPieChart size={26} />,
       },
     ],
-    imageSrc: "/images/mockups/hero_ss-portrait-full.webp",
+    imageSrc: "/images/mockups/meal_overview.webp",
   },
   {
-    title: "Top-Notch Security",
+    title: "AI Powered Coaching",
     description:
-      "Your fitness data is safe with us. GymBull employs advanced security measures to protect your information.",
+      "Benefit from AI-driven coaching that adjusts to your performance and helps you achieve your fitness goals faster.",
     bullets: [
       {
-        title: "Data Encryption",
-        description:
-          "Your information is safeguarded with advanced encryption methods.",
+        title: "Smart Recommendations",
+        description: "Receive personalized workout and meal recommendations.",
         icon: <FiLock size={26} />,
       },
       {
-        title: "Biometric Authentication",
-        description:
-          "Access your account securely with fingerprint or facial recognition.",
+        title: "Performance Analytics",
+        description: "Analyze your performance data to optimize your progress.",
         icon: <FiUser size={26} />,
       },
       {
-        title: "Continuous Monitoring",
+        title: "Continuous Improvement",
         description:
-          "We constantly monitor for any suspicious activity to keep your data safe.",
+          "AI learns and adapts to provide more effective coaching over time.",
         icon: <FiShield size={26} />,
       },
     ],
-    imageSrc: "/images/mockup-1.webp",
+    imageSrc: "/images/mockups/workout_description.png",
   },
 ];
