@@ -10,16 +10,24 @@ export const footerDetails: {
     subheading: "Empowering the world with cutting-edge fitness solutions for a healthier lifestyle.",
     quickLinks: [
         {
-            text: "Features",
-            url: "#features"
+            text: "Help Center",
+            url: "/help"
         },
         {
-            text: "Pricing",
-            url: "#pricing"
+            text: "Feedback",
+            url: "/feedback"
         },
         {
-            text: "Testimonials",
-            url: "#testimonials"
+            text: "Terms of Use",
+            url: "/terms"
+        },
+        {
+            text: "Privacy Policy",
+            url: "/privacy"
+        },
+        {
+            text: "Acknowledgements",
+            url: "/acknowledgements"
         }
     ],
     email: 'support@gymbull.com',
