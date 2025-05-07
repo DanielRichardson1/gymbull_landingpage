@@ -21,7 +21,7 @@ export default function HelpCenter() {
             </div>
             <div>
               <h3 className="text-xl font-medium">How do I customize my workout plan?</h3>
-              <p className="mt-2 text-foreground-accent">Navigate to the 'My Plan' section in the app, tap on 'Edit Plan', and adjust your preferences, goals, and available equipment.</p>
+              <p className="mt-2 text-foreground-accent">Navigate to the &apos;My Plan&apos; section in the app, tap on &apos;Edit Plan&apos;, and adjust your preferences, goals, and available equipment.</p>
             </div>
             <div>
               <h3 className="text-xl font-medium">Can I use GymBull without equipment?</h3>

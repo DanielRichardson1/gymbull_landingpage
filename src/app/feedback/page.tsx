@@ -14,7 +14,7 @@ export default function Feedback() {
       <div className="bg-card rounded-lg p-8 max-w-3xl mx-auto">
         <h2 className="text-2xl font-semibold mb-6">We Value Your Input</h2>
         <p className="mb-6 text-foreground-accent">
-          At GymBull, we're constantly striving to improve our app and provide the best possible experience for our users.
+          At GymBull, we&apos;re constantly striving to improve our app and provide the best possible experience for our users.
           Your feedback is invaluable in helping us achieve this goal.
         </p>
         

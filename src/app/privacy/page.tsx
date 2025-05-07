@@ -68,14 +68,14 @@ export default function PrivacyPolicy() {
           <li>Data portability</li>
         </ul>
         
-        <h2>7. Children's Privacy</h2>
+        <h2>7. Children&apos;s Privacy</h2>
         <p>
           Our app is not intended for children under 13, and we do not knowingly collect personal information from children under 13.
         </p>
         
         <h2>8. Changes to This Policy</h2>
         <p>
-          We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new policy on this page and updating the "Last updated" date.
+          We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new policy on this page and updating the &quot;Last updated&quot; date.
         </p>
         
         <h2>9. Contact Us</h2>

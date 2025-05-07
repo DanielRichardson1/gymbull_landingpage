@@ -14,7 +14,7 @@ export default function Acknowledgements() {
       <div className="prose prose-lg max-w-none">
         <p>
           GymBull would not be possible without the incredible work of many open-source projects, 
-          services, and resources. We'd like to acknowledge and thank the following:
+          services, and resources. We&apos;d like to acknowledge and thank the following:
         </p>
         
         <h2>Open Source Libraries</h2>

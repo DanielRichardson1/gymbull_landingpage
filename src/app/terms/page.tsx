@@ -16,7 +16,7 @@ export default function TermsOfUse() {
         
         <h2>1. Acceptance of Terms</h2>
         <p>
-          By accessing or using the GymBull application ("the App"), you agree to be bound by these Terms of Use. If you do not agree to these terms, please do not use the App.
+          By accessing or using the GymBull application (&quot;the App&quot;), you agree to be bound by these Terms of Use. If you do not agree to these terms, please do not use the App.
         </p>
         
         <h2>2. User Accounts</h2>
@@ -36,7 +36,7 @@ export default function TermsOfUse() {
         
         <h2>5. Disclaimer of Warranties</h2>
         <p>
-          The App is provided "as is" without warranties of any kind, either express or implied. GymBull does not warrant that the App will be error-free or uninterrupted.
+          The App is provided &quot;as is&quot; without warranties of any kind, either express or implied. GymBull does not warrant that the App will be error-free or uninterrupted.
         </p>
         
         <h2>6. Limitation of Liability</h2>

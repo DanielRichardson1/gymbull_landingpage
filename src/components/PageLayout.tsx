@@ -1,16 +1,13 @@
 import React from "react";
 import Footer from "./Footer";
 import Header from "./Header";
-import { siteDetails } from "@/data/siteDetails";
+// import { siteDetails } from "@/data/siteDetails";
 
 interface PageLayoutProps {
   children: React.ReactNode;
-  title: string;
 }
 
-const PageLayout: React.FC<PageLayoutProps> = ({ children, title }) => {
-  const pageTitle = `${title} | ${siteDetails.siteName}`;
-  
+const PageLayout: React.FC<PageLayoutProps> = ({ children }) => {
   return (
     <div className="flex flex-col min-h-screen">
       <Header />
